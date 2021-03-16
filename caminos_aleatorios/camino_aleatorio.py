@@ -20,7 +20,8 @@ def simular_caminata(pasos, numero_de_intentos, tipo_de_borracho):
         campo.anadir_borracho(borracho, origen)
         simulacion_caminata = caminata(campo, borracho, pasos)
     
-    distancias.append(round(simulacion_caminata, 1))
+        distancias.append(round(simulacion_caminata, 1))
+    return distancias
 
 def main(distancias_de_caminata, numero_de_intentos, tipo_de_borracho): 
 
