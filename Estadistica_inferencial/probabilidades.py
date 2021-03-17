@@ -25,7 +25,7 @@ def main(numero_de_tiros, numero_de_intentos):
 
 
 if __name__ == '__main__':
-    numero_de_tiros = int(input('¿Cuantos tiros del dado? '))
+    numero_de_tiros = int(input('¿Cuantos tiros del dado? ')) #probabilidad  de que por al menos me salga 1 en n veces lanzadas de dado
     numero_de_intentos = int(input('¿Cuantas veces correra la simulacion? '))
 
 
